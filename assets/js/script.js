@@ -17,10 +17,14 @@ console.log("Jéssica moram em " +cidade)
 console.log("Santa Rita fica no estado da " +estado);*/
 
 
-// 6 aula - Tipos de dados
-    /* String
+/* 6 aula - Tipos de dados
+    String
     Number
     boolean - true or false
     array ["descrição" , "Descrição" , "Descrição"]
     object {}
     typeof - para descobrir o tipo de dado*/
+
+    /*10 aula - Var, Let e const
+    Const - não sofre alteração, ela fica com o mesmo dado até o fim da execução.
+    */
