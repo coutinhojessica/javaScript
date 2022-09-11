@@ -25,6 +25,26 @@ console.log("Santa Rita fica no estado da " +estado);*/
     object {}
     typeof - para descobrir o tipo de dado*/
 
-    /*10 aula - Var, Let e const
+/*10 aula - Var, Let e const
     Const - não sofre alteração, ela fica com o mesmo dado até o fim da execução.
     */
+
+/*11 aula - operações em variáveis
+    let x = 2;
+    x = x + 8;
+    console.log(x);
+
+    let nome = "Jéssica";
+    let sobrenome = "Maiara";
+    let nomeCompleto = nome + " " + sobrenome;
+    console.log(nomeCompleto);
+
+    //operações matemáticas só vão acontecer quando houver números.
+
+    let n1 = 28;
+    let n2 = 20;
+    let n3 = 30;
+
+    let soma = (n1 + n2) -n3;
+
+    console.log("A soma é:"+ " " + soma );*/
