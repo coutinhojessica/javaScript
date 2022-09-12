@@ -50,7 +50,7 @@
     console.log("A soma é:"+ " " + soma );*/
 
 //12 aula - string e template string
-    let nome = 'Bernado';
+    /*let nome = 'Bernado';
     let sobrenome = 'da Silva';
 
    let nomeCompleto = `${nome} ${sobrenome}`;
@@ -67,4 +67,20 @@
 
     let soma = `O resultado deste cálculo é: ${(n1 + n2) -n3}`;
 
-    console.log(soma);
+    console.log(soma);*/
+
+//13 aula - condicional if/else
+    /*let idade = 14;
+    if (idade >= 18) {
+    console.log("Você é maior de idade");
+    } else {
+    console.log("Você é menor de idade");
+    }
+
+    // < - Menor
+    // > - Maior
+    // == - Igual
+    // >= - Maior ou Igual
+    // <= - Menor ou Igual
+    // != - Diferente
+    */
