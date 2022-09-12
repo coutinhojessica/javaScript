@@ -84,3 +84,8 @@
     // <= - Menor ou Igual
     // != - Diferente
     */
+//15 aula - multi-condicionais (&&(and-e) e ||(or-ou))
+    let idade = 26;
+    if (idade >=18 && idade < 60) {
+        console.log("Você um adulto");
+    }
