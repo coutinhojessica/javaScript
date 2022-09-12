@@ -1,20 +1,20 @@
 //4 Aula - Olá mundo!
-//alert("Olá Mundo!");
-//console.log("Olá mundo 3.0");
+    //alert("Olá Mundo!");
+    //console.log("Olá mundo 3.0");
 
 
 // Aula 5 - variáveis
-/*let idade = 26;
-let nome = "Jéssica";
+    /*let idade = 26;
+    let nome = "Jéssica";
 
-console.log("Meu nome é: " +nome);
-console.log("Minha idade é: " +idade);
+    console.log("Meu nome é: " +nome);
+    console.log("Minha idade é: " +idade);
 
-let cidade = "Santa Rita";
-let estado = "Paraíba";
+    let cidade = "Santa Rita";
+    let estado = "Paraíba";
 
-console.log("Jéssica moram em " +cidade)
-console.log("Santa Rita fica no estado da " +estado);*/
+    console.log("Jéssica moram em " +cidade)
+    console.log("Santa Rita fica no estado da " +estado);*/
 
 
 /* 6 aula - Tipos de dados
@@ -48,3 +48,23 @@ console.log("Santa Rita fica no estado da " +estado);*/
     let soma = (n1 + n2) -n3;
 
     console.log("A soma é:"+ " " + soma );*/
+
+//12 aula - string e template string
+    let nome = 'Bernado';
+    let sobrenome = 'da Silva';
+
+   let nomeCompleto = `${nome} ${sobrenome}`;
+
+   console.log("Nome: " + nomeCompleto);
+
+   let idade = 90;
+   let idadestring = `Idade: ${idade} anos`;
+   console.log(idadestring);
+
+    let n1 = 28;
+    let n2 = 20;
+    let n3 = 30;
+
+    let soma = `O resultado deste cálculo é: ${(n1 + n2) -n3}`;
+
+    console.log(soma);
