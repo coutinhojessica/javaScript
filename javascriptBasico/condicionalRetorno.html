@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função com retorno Condicional</title>
+</head>
+<body>
+    <h1>Função com retorno Condicional</h1>
+    <script>
+        function maiorDeIdade (idade) {
+            if (idade >= 18) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        let verificacao = maiorDeIdade(16);
+        console.log(verificacao);
+
+        if (verificacao) {
+            console.log ("Maior de idade");
+        } else {
+            console.log ("Menor de Idade");
+        }
+
+    </script>
+</body>
+</html>
