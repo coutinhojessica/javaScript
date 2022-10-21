@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de funções 5</title>
+</head>
+<body>
+    <h1>Calcule o preço do imóvel</h1>
+    <script>
+        /*
+        -m2 = 3.000
+        - se tiver 1 quarto, o m2 é 1x
+        - se tiver 2 quartos, o m2 é 1.2x
+        - se tiver 3 quartos, o m2 é 1.5x
+        */
+
+        function calculoImovel(metragem, quartos) {
+            let m2 = 3000;
+            let preco = 0;
+            switch (quartos) {
+                case 1:
+                default:
+                    preco = metragem * m2;
+                    break;
+                case 2:
+                    preco = metragem * (m2 * 1.2);
+                    break;
+                case 3:
+                    preco = metragem * (m2 *1.5);
+                    break;
+                
+
+            }
+        
+        }
+
+
+        let metragem = 123;
+        let quartos = 3;
+        let preco = calculoImovel (metragem, quartos);
+        console.log(`A casa custa R$ ${preco}`);
+    </script>
+</body>
+</html>
