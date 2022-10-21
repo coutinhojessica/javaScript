@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+</head>
+<body>
+    <p>Um homem decidiu ir à uma revenda comprar um carro. Ele deseja comprar um carro hatch, e a revenda possui, além de carros hatch, sedans, motocicletas e caminhonetes. Utilizando uma estrutura switch/case, caso o comprador queira o hatch, retorne: “Compra efetuada com sucesso”. Nas outras opções, retorne: “Tem certeza que não prefere este modelo?”. Caso seja especificado um modelo que não está disponível, retorne no console: “Não trabalhamos com este tipo de automóvel aqui”.</p>
+    <script>
+        let carro = 'kicks';
+        switch (carro) {
+            case 'hatch':
+                console.log('Compra efetuada com sucesso.');
+                break;
+            case 'sedan' || 'motocicleta' || 'caminhoneta':
+                    console.log('Tem certeza que não prefere este modelo');
+                    break;
+        
+            default:
+            console.log('Não trabalhamos com este tipo de automóvel aqui');
+                break;
+        } 
+    </script>
+</body>
+</html>
