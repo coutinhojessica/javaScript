@@ -1,0 +1,28 @@
+<script>
+    let persona = {
+        nome: 'Asha',
+        idade: 16,
+        pais: 'Estados Unidos',
+        caracteristicas: {
+            olhos: ['violeta', 'âmbar'],
+            pele: 'branca',
+            especie: 'loba',
+            forca: 10
+        }
+    };
+        persona.nome = 'Hayes';
+        persona.caracteristicas.forca += 20;
+        persona.caracteristicas.olhos.push('vermelho');
+
+        console.log(persona);
+
+        let persona2 = {
+            nome: 'jéssica',
+            idade: '26',
+            carros: [
+                {modelo: 'Fiat', cor: 'Preto'},
+                {modelo: 'Mobi', cor: 'vermelho'}
+            ]
+        };
+        console.log(persona2.carros[0].modelo);
+</script>
