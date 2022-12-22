@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de elementos</title>
+</head>
+<body>
+    <h1>Olá Javascript</h1>
+    <div id="teste">
+        <ul>
+            <li>algum item</li>
+            <li>algum item2</li>
+        </ul>
+    </div>
+    <div id="teste2">
+        <ul>
+            <li>algum item3</li>
+            <li>algum item4</li>
+        </ul>
+        <button class="botão" onclick="clicou()">Clique aqui</button>
+
+        <script>
+            function clicou() {
+                const teste = document.querySelector('#teste');
+                // console.log(teste.children);
+                const ul = teste.querySelector('ul');
+                ul.children[0].append(' Alterado!'); //Adicionando um texto
+                // Adicionando texto + tag
+                let newLi = document.createElement('li');
+                newLi.innerHTML = 'Item adicionado';
+                ul.appendChild(newLi);
+
+                // Adicionando texto no começo
+                // ul.prepend(newLi);
+                
+            };
+        </script>
+    </div>
+</body>
+</html>
