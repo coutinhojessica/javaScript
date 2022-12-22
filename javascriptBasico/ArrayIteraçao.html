@@ -9,4 +9,24 @@
         }*/
     );
     console.log(bigFruits);
+
+    let cars = ['Ferrari', 'Lamborgini', 'BMW', 'Creta'];
+    let nPalavras = cars.every((value) => {
+        return (value.length > 3);
+    });
+
+    if (nPalavras) {
+        console.log('Todos são maiores que 3');
+    } else {
+        console.log('Não são todos maiores que 3 ');
+    };
+
+    // Every -> Todos
+    // Some -> Algumas
+
+    if (fruits.includes('Uva')) {
+        console.log('Tem uva sim');
+    } else {
+        console.log('Não possuímos uva');
+    };
 </script>
