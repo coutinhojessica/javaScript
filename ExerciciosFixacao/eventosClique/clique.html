@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teste</title>
+    <script
+      src="https://kit.fontawesome.com/e4d906df90.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        min-height: 100vh;
+      }
+      #conteiner {
+        display: none;
+        background-color: aqua;
+        width: 30%;
+        height: 40%;
+        position: relative;
+      }
+      form {
+        padding: 15px;
+        margin: 20px;
+      }
+      form input {
+        margin: 5px;
+      }
+      input {
+        height: 5%;
+      }
+      #conteiner i {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="conta" type="button">Aparecer</button>
+
+    <div id="conteiner">
+      <i id="closed" class="fa-sharp fa-solid fa-rectangle-xmark"></i>
+      <form action="post">
+        <input type="email" name="email" id="email" />
+        <br />
+        <input type="password" name="password" id="password" />
+      </form>
+    </div>
+
+    <script>
+      let conta = document.getElementById("conta");
+      conta.addEventListener("click", function () {
+        const conteiner = document.getElementById("conteiner");
+        conteiner.setAttribute("style", "display: block");
+      });
+      let closed = document.getElementById("closed");
+      closed.addEventListener("click", function () {
+        const conteiner = document.getElementById("conteiner");
+        conteiner.setAttribute("style", "display: none");
+      });
+    </script>
+  </body>
+</html>

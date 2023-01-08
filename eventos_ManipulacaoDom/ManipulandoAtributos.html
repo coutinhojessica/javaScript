@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Olá Javascript</h1>
+    <div id="teste">
+        <ul>
+            <li>algum item</li>
+            <li>algum item2</li>
+        </ul>
+    </div>
+    <div id="teste2">
+        <ul>
+            <li>algum item3</li>
+            <li>algum item4</li>
+        </ul>
+        <input type="password" class="input" name="algo" id="" placeholder="Digite o que quiser">
+        <button class="botao2" onclick="senha()">Mostrar senha</button>
+        <button class="botao" onclick="clicou()">Clique aqui</button>
+
+    <script>
+        /* function clicou() {
+            const input = document.querySelector('input');
+            console.log(input.getAttribute('type'));
+
+            // hasAttribute - retorna um boolean
+            if(input.hasAttribute('placeholder')){
+                console.log('Tem sim!');
+            } else {
+                console.log('Não tem!');
+            };
+
+            // setAttribute - Modifica ou colocar um atributo
+            input.setAttribute('id', 'modificado');
+            }*/
+
+            function senha(){
+                const input = document.querySelector('input');
+                const botao2 = document.querySelector('.botao2');
+                if(input.getAttribute('type') === 'text') {
+                    input.setAttribute('type', 'password');
+                    botao2.innerText = 'Mostrar senha';
+                } else {
+                    input.setAttribute('type', 'text');
+                    botao2.innerText = 'Ocultar senha';
+                }
+            }
+    </script>
+</body>
+</html>
